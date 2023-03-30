@@ -1,0 +1,27 @@
+.cards{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+.card{
+    transition: transform .2s;
+    width: 18rem;
+    box-shadow: 5px 10px #888888;
+}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+h5{
+    cursor: pointer;
+}
+.text-center{
+    margin-top: 10px;
+}
+.text-primary{
+    margin-bottom: 10px;
+}

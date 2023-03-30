@@ -1,0 +1,10 @@
+.page-footer{
+    background-color: black;
+}
+label{
+    color: white;
+}
+label:hover{
+    cursor: pointer;
+    color: blue;
+}
